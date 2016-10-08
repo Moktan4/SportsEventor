@@ -1,0 +1,15 @@
+<resources>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Select the Games</item>
+        <item>Volleyball</item>
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Ping Pong</item>
+        <item>Badminton</item>
+        <item>Dodge ball</item>
+    </string-array>
+    <string name="list1"><u>Sports Event Organized by SAN FRANCISCO Boys and Girls Club, Venue: 111 Folsom Street, San Francisco, 94118. Date: 29 Sept. 2016, Time: 8:00 am</u></string>
+    <string name="list2"><u>Sports Event Organized by LIONS CLUB, Venue: 11 Market Street, San Francisco, 94102. Date: 22 NO. 2016, Time: 11:00 am</u></string>
+    <string name="list3"><u>Sports Event Organized by USFCA CLUB, Venue:GoldenGate Ave., San Francisco, 94102. Date:01 NOV 2016, Time: 11:00 am</u></string>
+</resources>

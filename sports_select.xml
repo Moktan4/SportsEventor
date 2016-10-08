@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:id="@+id/radioButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volleyball"
+        android:id="@+id/radioButton2"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ping Pong"
+        android:id="@+id/radioButton3"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soccer"
+        android:id="@+id/radioButton4"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodge ball"
+        android:id="@+id/radioButton5"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        android:id="@+id/radioButton6"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="Badminton"
+        android:id="@+id/radioButton7"
+        android:layout_weight="0.07"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d11f08"
+        android:entries="@array/android_dropdown_arrays"
+        android:padding="5dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"
+        android:onClick="showDatePickerDialog"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:textStyle="bold"
+        android:id="@+id/editText11"
+        android:text="Date: 11 Nov. 2015" />
+
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:text="Sports Event Organized by Boys and Girls in SFO."
+        android:textSize="40px"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/editText7"
+        android:layout_below="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="40px"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:id="@+id/editText4"
+        android:text="Team A Defeated Team B by 1-0."
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:onClick="onClick"
+        android:id="@+id/exit"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
